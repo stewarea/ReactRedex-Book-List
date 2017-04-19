@@ -28,3 +28,4 @@ function mapStateToProps(state) {
 }
 
 export default connect(mapStateToProps)(BookList);
+//connect takes a function and a Component and produces a container. Container is aware of the state contained by redux. 
